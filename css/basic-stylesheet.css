@@ -1,11 +1,78 @@
 /*dsdsad*/
-.body {
+
+
+
+* {
+    font-family: "Quicksand", Verdana, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+  }
+
+body {
     background-color: #EAE7DC;
 
 }
 
-.nav {
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #D8C3A5;
+    height: 50px;
+
+}
+nav div {
+    display: flex;
+    justify-content: space-between;
+}
+nav div div {
     display: flex;
     justify-content: space-around;
-    background-color: #D8C3A5;
+}
+
+nav div div a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+nav div div :hover {
+    color:#E85A4F;
+    font-weight: 650;
+}
+.navTeilLinks {
+    width: 400px;
+}
+.navTeilRechts {
+    width: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**Abzuändern**/
+.navLink1 {
+    text-decoration:underline;
 }
