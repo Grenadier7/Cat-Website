@@ -7,45 +7,58 @@
     font-optical-sizing: auto;
     font-weight: 550;
     font-style: normal;
+    
   }
 
 body {
+    background-image: url("../images/wheatBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #EAE7DC;
 
 }
 
+/*Verteilt horizontal*/
 nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #D8C3A5;
     height: 50px;
-
-}
-nav div {
     display: flex;
     justify-content: space-between;
-}
-nav div div {
-    display: flex;
-    justify-content: space-around;
+    align-items: center;
+    background-color: #D8C3A588;
+    
 }
 
-nav div div a {
+
+.navTeilMitte {
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+}
+nav  div {
+    width: 400px;
+    height: 30px;
+}
+
+
+nav  div a {
     text-decoration: none;
     color: black;
     font-size: 20px;
 }
-nav div div :hover {
-    color:#E85A4F;
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 30px;
+}
+nav span{
+    margin-right: 30px;
+}
+nav  div :hover {
+    color:#e8594fcf;
     font-weight: 650;
 }
-.navTeilLinks {
-    width: 400px;
-}
-.navTeilRechts {
-    width: 600px;
-}
+
 
 
 
@@ -73,6 +86,3 @@ nav div div :hover {
 
 
 /**Abzuändern**/
-.navLink1 {
-    text-decoration:underline;
-}
