@@ -61,6 +61,68 @@ nav  div :hover {
 
 
 
+/** CAT BREEDS */
+.katzenrassenListe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.katzenrassenListe li {
+    display: flex;
+    align-items: center;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #ffebcdce;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    width: 1500px;
+}
+.katzenrassenListe li img {
+    margin: 20px;
+}
+
+.aboutKatzetext {
+    margin-left: 70px;
+    margin-right: 70px;
+    width: 800px;
+    
+}
+.aboutKatzetext p {
+    font-size: larger;
+    margin-bottom: 50px;
+}
+.aboutKatzetext h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(134, 49, 16);
+}
+
+
+
+
+
+
+
+
+
+.katzenTags {
+    margin-right: 50px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+
+.katzenTags p {
+    background-color: rgba(206, 105, 33, 0.711);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
 
 
 
