@@ -61,6 +61,15 @@ nav  div :hover {
 
 
 
+.vertikaleFlexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
 /** CAT BREEDS */
 .katzenrassenListe {
     display: flex;
@@ -120,26 +129,37 @@ nav  div :hover {
 
 
 
-
-
-
-.katzenTags {
-    margin-right: 50px;
-    width: 300px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: 10px;
-}
-
-
-.katzenTags p {
-    background-color: rgba(206, 105, 33, 0.711);
+.miniRoteBox {
+    background-color: rgba(206, 105, 33, 0.636);
     margin-right: 20px;
     margin-bottom: 20px;
     padding: 5px;
     border-radius: 5px;
+}
+
+.rechteKRassenBox {
+    margin-right: 50px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+
+.katzenTags {
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+
+
+.AktionButtenCat {
+    width: 270px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
 }
 
 
