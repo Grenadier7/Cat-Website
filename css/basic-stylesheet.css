@@ -68,13 +68,31 @@ nav  div :hover {
     align-items: center;
 }
 
-.katzenrassenListe li {
+/*Überschrift*/
+.katzenrassenListe h1 {
+    padding-bottom: 5px;
+    width: 420px;
+    height: 60px;
+    color: rgb(134, 49, 16);
+    font-weight: bold;
+}
+
+.alignCenter {
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.beigeBox {
     border-radius: 20px 20px 20px 20px;
     background-color: #ffebcdce;
     margin-bottom: 20px;
     margin-right: 50px;
+}
+
+.katzenrassenListe li {
+    display: flex;
+    align-items: center;
     width: 1500px;
 }
 .katzenrassenListe li img {
