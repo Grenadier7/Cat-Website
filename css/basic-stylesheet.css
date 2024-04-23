@@ -1,6 +1,8 @@
 /*dsdsad*/
 
-
+:root {
+    --lightBaige: #D8C3A588;
+}
 
 * {
     font-family: "Quicksand", Verdana, sans-serif;
@@ -10,41 +12,167 @@
   }
 
 body {
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #EAE7DC;
 
 }
 
+/*Verteilt horizontal*/
 nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #D8C3A5;
     height: 50px;
-
-}
-nav div {
     display: flex;
     justify-content: space-between;
-}
-nav div div {
-    display: flex;
-    justify-content: space-around;
+    align-items: center;
+    background-color: var(--lightBaige);
+    
 }
 
-nav div div a {
+
+
+.navTeilMitte {
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+}
+nav  div {
+    width: 400px;
+    height: 30px;
+}
+
+
+nav  div a {
     text-decoration: none;
     color: black;
     font-size: 20px;
 }
-nav div div :hover {
-    color:#E85A4F;
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 30px;
+}
+nav span{
+    margin-right: 30px;
+}
+
+h1 {
+    color: rgb(134, 49, 16);
+}
+h2{
+    color: rgb(134, 49, 16);
+}
+h3{
+    color: rgb(134, 49, 16);
+}
+
+
+nav  div :hover {
+    color:#e8594fcf;
     font-weight: 650;
 }
-.navTeilLinks {
-    width: 400px;
+
+
+
+.vertikaleFlexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.navTeilRechts {
-    width: 600px;
+
+
+
+
+/** CAT BREEDS */
+.katzenrassenListe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Überschrift*/
+.katzenrassenListe h1 {
+    padding-bottom: 5px;
+    width: 420px;
+    height: 60px;
+    font-weight: bold;
+}
+
+.alignCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.beigeBox {
+    border-radius: 20px 20px 20px 20px;
+    background-color: #ffebcdce;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    padding: 20px;
+}
+
+.katzenrassenListe li {
+    display: flex;
+    align-items: center;
+    width: 1500px;
+}
+.katzenrassenListe li img {
+    margin: 20px;
+}
+
+.aboutKatzetext {
+    margin-left: 70px;
+    margin-right: 70px;
+    width: 800px;
+    
+}
+.aboutKatzetext p {
+    font-size: larger;
+    margin-bottom: 50px;
+}
+.aboutKatzetext h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.miniRoteBox {
+    background-color: rgba(206, 105, 33, 0.636);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.rechteKRassenBox {
+    margin-right: 50px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+
+.katzenTags {
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+
+
+.AktionButtenCat {
+    width: 270px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
 }
 
 
@@ -56,13 +184,36 @@ nav div div :hover {
 
 
 
+/*Cat of the Day*/
+
+/**Große Box, überschreibt fabre von beigeBox*/
+.catOfTheDayBox {
+    background-color: var(--lightBaige);
+    display: flex;
+    margin: 0 100px 0 80px;
+    height: 550px;
+}
+.catOfTheDayBox div {
+    margin-left: 120px;
+}
+.catOfTheDayBox p {
+    font-size: larger;
+    position: relative;
 
 
+}
 
+/*großes Katzenbild rechts*/
+.image-cat-right {
+    margin-top: 20px;
+    width: auto;
+    height: 550px;
+}
 
-
-
-
+.grosseUeberschrift {
+    font-size: 70px;
+    color: rgb(124, 36, 9);
+}
 
 
 
@@ -73,6 +224,3 @@ nav div div :hover {
 
 
 /**Abzuändern**/
-.navLink1 {
-    text-decoration:underline;
-}
