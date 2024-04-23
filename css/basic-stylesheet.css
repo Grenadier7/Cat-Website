@@ -1,17 +1,18 @@
 /*dsdsad*/
 
-
+:root {
+    --lightBaige: #D8C3A588;
+}
 
 * {
     font-family: "Quicksand", Verdana, sans-serif;
     font-optical-sizing: auto;
     font-weight: 550;
     font-style: normal;
-    
   }
 
 body {
-    background-image: url("../images/wheatBackground.jpg");
+    background-image: url("../images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #EAE7DC;
@@ -24,9 +25,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #D8C3A588;
+    background-color: var(--lightBaige);
     
 }
+
 
 
 .navTeilMitte {
@@ -54,6 +56,18 @@ nav a {
 nav span{
     margin-right: 30px;
 }
+
+h1 {
+    color: rgb(134, 49, 16);
+}
+h2{
+    color: rgb(134, 49, 16);
+}
+h3{
+    color: rgb(134, 49, 16);
+}
+
+
 nav  div :hover {
     color:#e8594fcf;
     font-weight: 650;
@@ -82,7 +96,6 @@ nav  div :hover {
     padding-bottom: 5px;
     width: 420px;
     height: 60px;
-    color: rgb(134, 49, 16);
     font-weight: bold;
 }
 
@@ -97,6 +110,7 @@ nav  div :hover {
     background-color: #ffebcdce;
     margin-bottom: 20px;
     margin-right: 50px;
+    padding: 20px;
 }
 
 .katzenrassenListe li {
@@ -121,7 +135,6 @@ nav  div :hover {
 .aboutKatzetext h3 {
     font-size: 30px;
     font-weight: bold;
-    color: rgb(134, 49, 16);
 }
 
 
@@ -171,11 +184,36 @@ nav  div :hover {
 
 
 
+/*Cat of the Day*/
+
+/**Große Box, überschreibt fabre von beigeBox*/
+.catOfTheDayBox {
+    background-color: var(--lightBaige);
+    display: flex;
+    margin: 0 100px 0 80px;
+    height: 550px;
+}
+.catOfTheDayBox div {
+    margin-left: 120px;
+}
+.catOfTheDayBox p {
+    font-size: larger;
+    position: relative;
 
 
+}
 
+/*großes Katzenbild rechts*/
+.image-cat-right {
+    margin-top: 20px;
+    width: auto;
+    height: 550px;
+}
 
-
+.grosseUeberschrift {
+    font-size: 70px;
+    color: rgb(124, 36, 9);
+}
 
 
 
