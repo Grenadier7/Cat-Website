@@ -2,6 +2,7 @@
 
 :root {
     --lightBaige: #D8C3A588;
+    --foulRed:     color: rgb(134, 49, 16);
 }
 
 * {
@@ -62,6 +63,7 @@ h1 {
 }
 h2{
     color: rgb(134, 49, 16);
+    font-size: 30px;
 }
 h3{
     color: rgb(134, 49, 16);
@@ -184,17 +186,18 @@ nav  div :hover {
 
 
 
-/*Cat of the Day*/
+/*Zusammenleben mit Katzen*/
 
 /**Große Box, überschreibt fabre von beigeBox*/
 .catOfTheDayBox {
     background-color: var(--lightBaige);
     display: flex;
     margin: 0 100px 0 80px;
-    height: 550px;
+
 }
-.catOfTheDayBox div {
+.catOfTheDayBox-FlexItem1 {
     margin-left: 120px;
+    
 }
 .catOfTheDayBox p {
     font-size: larger;
@@ -213,6 +216,7 @@ nav  div :hover {
 .grosseUeberschrift {
     font-size: 70px;
     color: rgb(124, 36, 9);
+
 }
 
 
@@ -223,4 +227,40 @@ nav  div :hover {
 
 
 
+
+.catOfTheDayBox-FlexItem1 {
+    flex: 2 1 1000px;
+}
+.catOfTheDayBox-FlexItem2 {
+    flex: 0 1 1000px;
+
+}
+
+
+.IconListe {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.IconListe img{
+    width: 150px;
+}
+
+
+
+
 /**Abzuändern**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**ICONS*/
