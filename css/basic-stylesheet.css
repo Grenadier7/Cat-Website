@@ -195,6 +195,9 @@ nav  div :hover {
     margin: 0 100px 0 80px;
 
 }
+.textBoxeinrückung {
+    margin: 0 100px 0 80px;
+}
 .catOfTheDayBox-FlexItem1 {
     margin-left: 120px;
     
@@ -202,8 +205,6 @@ nav  div :hover {
 .catOfTheDayBox p {
     font-size: larger;
     position: relative;
-
-
 }
 
 /*großes Katzenbild rechts*/
@@ -240,12 +241,20 @@ nav  div :hover {
 .IconListe {
     display: flex;
     margin-top: 50px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .IconListe img{
     width: 150px;
 }
 
+
+
+
+
+/**About Us*/
+.AboutUs-textEinrueckung {
+    padding: 20px 50px;
+}
 
 
 
