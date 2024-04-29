@@ -82,7 +82,9 @@ nav  div :hover {
     flex-direction: column;
     justify-content: center;
 }
-
+.roundedImage {
+    border-radius: 25px;
+}
 
 
 
@@ -265,11 +267,20 @@ nav  div :hover {
 
 
 
+/**Cat of The Day specific*/
+#catOfTheDayH1 {
+    display: flex;
+    justify-content: center;
+}
+#catOfTheDayH1 h1 {
+    margin: 20px 0;
+}
 
 
-
-
-
+/**About Us*/
+.marginLeft {
+    margin-left: 50px;
+}
 
 
 /**ICONS*/
