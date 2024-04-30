@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Katzenrassen - PetCatCentral</title>
         <link rel="stylesheet" href="../css/basic-stylesheet.css">
-        <link rel="stylesheet" href="../css/cat-of-the-day.css">
+        <link rel="stylesheet" href="../css/cat_breeds.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"> 
@@ -15,15 +15,15 @@
         <nav>
                 <a href="../index.html">PetCatCentral</a>
                 <div class="navTeilMitte">
-                    <a href="about_us.html" class="navLink2">About us</a>
-                    <a href="cat_of_the_day.html" class="navLink3">Cat of the day</a>
-                    <a href="cat_breeds.html" class="navLink4">Katzenrassen</a>
-                    <a href="zusammenlebenMitKatzen.html" class="navLink5">Zusammenleben</a>
+                    <a href="cat_of_the_day.html" class="navLink1">Cat of the day</a>
+                    <a href="cat_breeds.html" class="navLink2">Katzenrassen</a>
+                    <a href="zusammenlebenMitKatzen.html" class="navLink3">Zusammenleben</a>
+                    <a href="about_us.html" class="navLink4">About Us</a>
                 </div>
                 <span class="material-symbols-outlined">search</span>
         </nav>
         <ul  class="katzenrassenListe ">
-            <h1 class="beigeBox alignCenter">Bekannte Katzenrassen</h1>
+            <h1 class="beigeBox alignCenter" id="catBreeds-h1">Bekannte Katzenrassen</h1>
             <li class = "beigeBox">
                 <img width="250px" height="250px" src="../images/catBreeds/bengalCat.jpg" alt="Bangal Cat">
                 <div class="aboutKatzetext">
@@ -32,12 +32,12 @@
                 </div>
                 <div class="vertikaleFlexbox rechteKRassenBox">
                     <div class="katzenTags">
-                        <p class="miniRoteBox">Atzribut1</p>
-                        <p class="miniRoteBox">Atzribut2</p>
+                        <p class="miniRoteBox">aktiv</p>
+                        <p class="miniRoteBox">neugierig</p>
 
                     </div>
                     <div class="AktionButtenCat miniRoteBox alignCenter">
-                        <p>Wikipedia</p>
+                        <a href="https://de.wikipedia.org/wiki/Bengal_(Katzenrasse)">mehr erfahren</a>
                     </div>
                 </div>
 
@@ -49,15 +49,15 @@
                     <h3>British Shorthair</h3>
                     <p>Die Britisch Kurzhaar ist eine charakteristische Katzenrasse mit ihrem gedrungenen Körperbau, dichtem Fell und großen runden Augen. Sie sind bekannt für ihre Gelassenheit und freundliche Natur, was sie zu beliebten Begleitern in vielen Haushalten weltweit macht.</p>
                 </div>
-                <div class="katzenTags">
-                    <p>Atzribut1</p>
-                    <p>Atzribut2</p>
-                    <p>Atzribut3</p>
-                    <p>Atzribut1</p>
-                    <p>Atzribut3</p>
-                    <p>Atzribut1</p>
+                <div class="vertikaleFlexbox rechteKRassenBox">
+                    <div class="katzenTags">
+                        <p class="miniRoteBox">elegant</p>
+                        <p class="miniRoteBox">robust</p>
 
-
+                    </div>
+                    <div class="AktionButtenCat miniRoteBox alignCenter">
+                        <a href="https://de.wikipedia.org/wiki/Bengal_(Katzenrasse)">mehr erfahren</a>
+                    </div>
                 </div>
             </li>
             <li class = "beigeBox">
@@ -66,15 +66,15 @@
                     <h3>Maine Coon</h3>
                     <p>Die Maine Coon ist eine große und kräftige Katze mit einem dicken Fell und charakteristischen "Borsten" an den Ohren. Sie ist freundlich, sozial und bekannt für ihre Anhänglichkeit gegenüber ihren Besitzern.</p>
                 </div>
-                <div class="katzenTags">
-                    <p>Attribut1</p>
-                    <p>Attribut2</p>
-                    <p>Attribut3</p>
-                    <p>Attibut1</p>
-                    <p>Attribut3</p>
-                    <p>Attribut1</p>
+                <div class="vertikaleFlexbox rechteKRassenBox">
+                    <div class="katzenTags">
+                        <p class="miniRoteBox">Atzribut1</p>
+                        <p class="miniRoteBox">Atzribut2</p>
 
-
+                    </div>
+                    <div class="AktionButtenCat miniRoteBox alignCenter">
+                        <a href="https://de.wikipedia.org/wiki/Bengal_(Katzenrasse)">mehr erfahren</a>
+                    </div>
                 </div>
             </li>
             <li class = "beigeBox">
@@ -83,22 +83,32 @@
                     <h3>Russisch Blau</h3>
                     <p>Die Russisch Blau ist eine elegante Katze mit einem kurzen, dichten Fell in einem silber-blauen Farbton. Sie ist eher zurückhaltend gegenüber Fremden, aber sehr liebevoll und loyal gegenüber ihrer Familie.</p>
                 </div>
-                <div class="katzenTags">
-                    <p>Attribut1</p>
-                    <p>Attribut2</p>
-                    <p>Attribut3</p>
+                <div class="vertikaleFlexbox rechteKRassenBox">
+                    <div class="katzenTags">
+                        <p class="miniRoteBox">Atzribut1</p>
+                        <p class="miniRoteBox">Atzribut2</p>
+
+                    </div>
+                    <div class="AktionButtenCat miniRoteBox alignCenter">
+                        <a href="https://de.wikipedia.org/wiki/Bengal_(Katzenrasse)">mehr erfahren</a>
+                    </div>
                 </div>
             </li>
             <li class = "beigeBox">
                 <img width="250px" height="250px" src="../images/catBreeds/scottishFold.jpg" alt="Scottish Fold">
                 <div class="aboutKatzetext">
                     <h3>Scottish Fold</h3>
-                    <p>Text</p>
+                    <p>Die Scottish Fold ist eine charmante Katzenrasse, die für ihre ungewöhnlich gefalteten Ohren bekannt ist, die ihr ein einzigartiges Aussehen verleihen. Sie haben oft einen ruhigen und sanften Charakter und sind sehr anhänglich gegenüber ihren Menschen. Diese Katzen sind bekannt dafür, sich gut mit anderen Haustieren und Kindern zu verstehen.</p>
                 </div>
-                <div class="katzenTags">
-                    <p>Attribut1</p>
-                    <p>Attribut2</p>
-                    <p>Attribut3</p>
+                <div class="vertikaleFlexbox rechteKRassenBox">
+                    <div class="katzenTags">
+                        <p class="miniRoteBox">Atzribut1</p>
+                        <p class="miniRoteBox">Atzribut2</p>
+
+                    </div>
+                    <div class="AktionButtenCat miniRoteBox alignCenter">
+                        <a href="https://de.wikipedia.org/wiki/Bengal_(Katzenrasse)">mehr erfahren</a>
+                    </div>
                 </div>
 
             </li>
@@ -106,11 +116,16 @@
                 <img width="250px" height="250px" src="../images/catBreeds/siamKatze.webp" alt="Siamkatze">
                 <div class="aboutKatzetext">
                     <h3>Siamkatze</h3>
-                    <p>Text</p>
+                    <p>Die Siamkatze ist eine elegante und anmutige Rasse mit schlankem Körperbau, langem, schlankem Schwanz und leuchtend blauen Augen. Sie sind bekannt für ihre gesprächige Natur und neigen dazu, sich eng an ihre menschlichen Begleiter zu binden. Siamkatzen sind sehr sozial und genießen es, in der Nähe ihrer Familie zu sein, oft folgen sie ihren Besitzern im Haus herum und beteiligen sich gerne an alltäglichen Aktivitäten.</p>
+                </div>
+                <div class="vertikaleFlexbox rechteKRassenBox">
                     <div class="katzenTags">
-                        <p>Attribut1</p>
-                        <p>Attribut2</p>
-                        <p>Attribut3</p>
+                        <p class="miniRoteBox">Atzribut1</p>
+                        <p class="miniRoteBox">Atzribut2</p>
+
+                    </div>
+                    <div class="AktionButtenCat miniRoteBox alignCenter">
+                        <a href="https://de.wikipedia.org/wiki/Bengal_(Katzenrasse)">mehr erfahren</a>
                     </div>
                 </div>
             </li>

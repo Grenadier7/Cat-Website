@@ -1,7 +1,7 @@
-/*dsdsad*/
 
 :root {
-    --lightBaige: #D8C3A588;
+    --lightBaige: #decbb1a9;
+    --yellowishBeige: #e9d9c2ce;
     --foulRed:     color: rgb(134, 49, 16);
 }
 
@@ -20,13 +20,48 @@ body {
 
 }
 
+/*ALLGEMEIN*/
+h1 {
+    color: rgb(134, 49, 16);
+}
+h2{
+    color: rgb(134, 49, 16);
+    font-size: 30px;
+}
+h3{
+    color: rgb(134, 49, 16);
+}
+
+.vertikaleFlexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.roundedImage {
+    border-radius: 25px;
+}
+.alignCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+/**Nav*/
+
+
 /*Verteilt horizontal*/
 nav {
-    height: 50px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--lightBaige);
+    background-color: var(--yellowishBeige);
     
 }
 
@@ -63,18 +98,6 @@ nav span{
     margin-left: 10px;
 }
 
-h1 {
-    color: rgb(134, 49, 16);
-}
-h2{
-    color: rgb(134, 49, 16);
-    font-size: 30px;
-}
-h3{
-    color: rgb(134, 49, 16);
-}
-
-
 nav  div :hover {
     color:#e8594fcf;
     font-weight: 650;
@@ -82,14 +105,12 @@ nav  div :hover {
 
 
 
-.vertikaleFlexbox {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.roundedImage {
-    border-radius: 25px;
-}
+
+
+
+
+
+
 
 
 
@@ -108,15 +129,9 @@ nav  div :hover {
     font-weight: bold;
 }
 
-.alignCenter {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .beigeBox {
     border-radius: 20px 20px 20px 20px;
-    background-color: #ffebcdce;
+    background-color: var(--lightBaige);
     margin-bottom: 20px;
     margin-right: 50px;
     padding: 20px;
@@ -145,12 +160,16 @@ nav  div :hover {
     font-size: 30px;
     font-weight: bold;
 }
+#catBreeds-h1 {
+    padding-bottom: 20px;
+    font-size: 50px;
+    width: 600px;
+}
 
 
 
 
-
-
+/**allgemein (meistens für Katzenrassen) */
 .miniRoteBox {
     background-color: rgba(206, 105, 33, 0.636);
     margin-right: 20px;
@@ -175,7 +194,6 @@ nav  div :hover {
 }
 
 
-
 .AktionButtenCat {
     width: 270px;
     height: 50px;
@@ -197,9 +215,9 @@ nav  div :hover {
 
 /**Große Box, überschreibt fabre von beigeBox*/
 .catOfTheDayBox {
-    background-color: var(--lightBaige);
     display: flex;
     margin: 0 100px 0 80px;
+    background-color: var(--lightBaige);
 
 }
 .textBoxeinrückung {
@@ -235,7 +253,7 @@ nav  div :hover {
 
 
 
-
+/*Index.html*/
 .catOfTheDayBox-FlexItem1 {
     flex: 2 1 1000px;
 }
@@ -243,8 +261,6 @@ nav  div :hover {
     flex: 0 1 1000px;
 
 }
-
-
 .IconListe {
     display: flex;
     margin-top: 50px;
@@ -258,14 +274,9 @@ nav  div :hover {
 
 
 
-/**About Us*/
-.AboutUs-textEinrueckung {
-    padding: 20px 50px;
-}
 
 
 
-/**Abzuändern**/
 
 
 
@@ -289,5 +300,7 @@ nav  div :hover {
 .aboutUsListe li {
     font-size: large;
 }
+.AboutUs-textEinrueckung {
+    padding: 20px 50px;
+}
 
-/**ICONS*/
