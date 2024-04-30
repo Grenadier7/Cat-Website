@@ -1,4 +1,11 @@
-.navLink3 {
+/**
+ * Verleiht dem aktuellen Nav-Item einen Unterstrich
+ * @author Maximilian Sieberer, Sedrick Skrinjer
+ * @version 2024-04-30
+ */
+ 
+ 
+ .navLink3 {
     text-decoration:solid underline 2px;
     text-underline-offset: 8px;
 }
